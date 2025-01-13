@@ -62,4 +62,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/docker-assignment:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/docker-assignment:product-management-api
